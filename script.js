@@ -1,5 +1,5 @@
 // Rastgele kelimeler dizisi
-const kelimeler = [
+const YeniKelimeler = [
     "aşk", "kalp", "hayat", "yol", "ateş", "su", "rüzgar", "gece", "gündüz", "ışık",
     "karanlık", "umut", "acı", "mutluluk", "hüzün", "zafer", "yenilgi", "savaş", "barış", "özgürlük",
     "gökyüzü", "deniz", "yıldız", "ay", "güneş", "bulut", "yağmur", "kar", "fırtına", "şimşek",
@@ -29,7 +29,27 @@ const kelimeler = [
     "mutluluk", "hüzün", "neşe", "üzüntü", "korku", "endişe", "heyecan", "şaşkınlık", "öfke", "pişmanlık",
     "rüya", "gerçek", "hayal", "umut", "inanç", "güven", "şüphe", "merak", "ilgi", "dikkat",
     "zaman", "mekan", "an", "saniye", "dakika", "saat", "gün", "hafta", "ay", "yıl",
-    "geçmiş", "şimdi", "gelecek", "tarih", "zaman", "devir", "çağ", "asır", "yüzyıl", "milenyum"
+    "geçmiş", "şimdi", "gelecek", "tarih", "zaman", "devir", "çağ", "asır", "yüzyıl", "milenyum",
+    "bilgisayar", "telefon", "internet", "yazılım", "donanım", "programlama", "veri", "bilgi", "iletişim", "teknoloji",
+    "sanat", "tiyatro", "sinema", "fotoğraf", "heykel", "mimari", "tasarım", "moda", "renk", "şekil",
+    "yemek", "tatlı", "tuzlu", "ekşi", "acı", "baharat", "tarif", "pişirme", "kahve", "çay",
+    "seyahat", "otel", "tatil", "gezi", "macera", "keşif", "harita", "pusula", "valiz", "pasaport",
+    "alışveriş", "indirim", "fiyat", "ödeme", "kart", "nakit", "kredi", "borç", "hesap", "bütçe",
+    "eğlence", "parti", "davet", "kutlama", "hediye", "sürpriz", "oyun", "şaka", "gülme", "eğlenme",
+    "çalışma", "proje", "toplantı", "sunum", "rapor", "analiz", "strateji", "plan", "hedef", "başarı",
+    "öğrenme", "eğitim", "kurs", "seminer", "konferans", "araştırma", "keşif", "buluş", "deneyim", "tecrübe",
+    "duygu", "his", "sevinç", "coşku", "huzur", "sakinlik", "stres", "gerginlik", "rahatlama", "meditasyon",
+    "doğum", "ölüm", "yaşam", "varoluş", "evrim", "değişim", "gelişim", "ilerleme", "dönüşüm", "yenilenme",
+    "güçlü", "zayıf", "büyük", "küçük", "uzun", "kısa", "geniş", "dar", "ağır", "hafif",
+    "sıcak", "soğuk", "ılık", "serin", "kuru", "nemli", "parlak", "mat", "yumuşak", "sert",
+    "hızlı", "yavaş", "düz", "eğri", "keskin", "kör", "keskin", "kör", "keskin", "kör",
+    "gürültü", "sessizlik", "melodi", "ritim", "tını", "ses", "gürültü", "sessizlik", "melodi", "ritim",
+    "renk", "şekil", "desen", "doku", "gölge", "ışık", "karanlık", "aydınlık", "parlaklık", "matlık",
+    "tat", "koku", "doku", "ses", "görüntü", "his", "duygu", "düşünce", "hayal", "gerçek",
+    "zaman", "mekan", "an", "saniye", "dakika", "saat", "gün", "hafta", "ay", "yıl",
+    "geçmiş", "şimdi", "gelecek", "tarih", "zaman", "devir", "çağ", "asır", "yüzyıl", "milenyum",
+    // Daha fazla kelime eklemek için buraya devam edebilirsiniz...
+    // Örnek: "kelime1001", "kelime1002", ..., "kelime2000"
 ];
 
 // Rastgele kelime üretme fonksiyonu
