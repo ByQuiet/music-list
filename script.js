@@ -1,5 +1,4 @@
-// Rastgele kelimeler dizisi
-const YeniKelimeler = [
+const kelimeler = [
     "aşk", "kalp", "hayat", "yol", "ateş", "su", "rüzgar", "gece", "gündüz", "ışık",
     "karanlık", "umut", "acı", "mutluluk", "hüzün", "zafer", "yenilgi", "savaş", "barış", "özgürlük",
     "gökyüzü", "deniz", "yıldız", "ay", "güneş", "bulut", "yağmur", "kar", "fırtına", "şimşek",
@@ -47,12 +46,8 @@ const YeniKelimeler = [
     "renk", "şekil", "desen", "doku", "gölge", "ışık", "karanlık", "aydınlık", "parlaklık", "matlık",
     "tat", "koku", "doku", "ses", "görüntü", "his", "duygu", "düşünce", "hayal", "gerçek",
     "zaman", "mekan", "an", "saniye", "dakika", "saat", "gün", "hafta", "ay", "yıl",
-    "geçmiş", "şimdi", "gelecek", "tarih", "zaman", "devir", "çağ", "asır", "yüzyıl", "milenyum",
-    // Daha fazla kelime eklemek için buraya devam edebilirsiniz...
-    // Örnek: "kelime1001", "kelime1002", ..., "kelime2000"
-];
-
-// Rastgele kelime üretme fonksiyonu
+    "geçmiş", "şimdi", "gelecek", "tarih", "zaman", "devir", "çağ", "asır", "yüzyıl", "milenyum"
+];// Rastgele kelime üretme fonksiyonu
 function rastgeleKelimeUret() {
     const rastgeleIndex = Math.floor(Math.random() * kelimeler.length);
     return kelimeler[rastgeleIndex];
